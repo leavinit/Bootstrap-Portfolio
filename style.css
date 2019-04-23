@@ -52,6 +52,17 @@ body { padding-top: 100px; }
     line-height: 1.5em ;    
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: #666666 ;
+    border-top: 8px solid #4aaaa5 ;
+    text-align: center;
+    
+ }
 /* TESTING STYLES 
 .col-sm-2 {
     border: 1px solid red ;
