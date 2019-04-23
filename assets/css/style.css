@@ -9,11 +9,11 @@ html, body {
 
 body {
     padding-top: 7em ;
-    padding-bottom: 2em;
+    padding-bottom: 50em;
     background-image: url("../images/dark-honeycomb.png") ;
-    display: flex ;
-    flex-direction: column ;
-    
+    /* display: flex ;
+    flex-direction: column ; */
+    z-index: -1;
 }
 
 h1 {
@@ -29,13 +29,14 @@ h1 {
     position: fixed;
     background-color: #ffffff ;
     border-bottom: 1px solid #cccccc;
+    z-index: 1;
 }
 
 .titleBox {
     width : 960px ;
     margin: auto ;
     display: flex ;
-    justify-content: space-between ;
+    justify-content: space-around ;
     
 }
 
@@ -65,7 +66,7 @@ h1 {
     background-color: #ffffff ;
     /* width: 960px ; */
     /* display: block ; */
-    z-index: -100 ;
+    z-index: -10 ;
     /* margin-left: auto ;
     margin-right: auto ;  */
     flex: 1 0 auto ;
@@ -84,13 +85,14 @@ h1 {
 }
 
 form, input {
-    width: 90% ;
-    height: 1.5em ;
-    padding-left: 2em;
+    width: 100% ;
+    padding-bottom: .5em;
+    /* height: 1.5em ;
+    padding-left: 2em; */
 }
 
 textarea {
-    width: 93% ;
+    width: 100% ;
     
 }
 
@@ -114,8 +116,8 @@ textarea {
 .picwrap h3 {
     position: absolute;
     top: 0; 
-    margin-left: 3em;
-    margin-top: 8em;
+    margin-left: 1.7em;
+    margin-top: 5.1em;
     width: 80%; 
     background-color: #4aaaa5 ;
  
