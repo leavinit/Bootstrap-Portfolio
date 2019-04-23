@@ -1,0 +1,58 @@
+.header {
+    width: 100% ;
+    top: 0 ;
+    left: 0;
+    position: fixed;
+    background-color: #ffffff ;
+    border-bottom: 1px solid #cccccc;
+    z-index: 1;
+}
+
+.titleBox {
+    width : 960px ;
+    margin: auto ;
+    display: flex ;
+    justify-content: space-between ;
+    
+}
+
+.nameArea {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 0 10px 0 10px;
+    color :#ffffff ;
+    background-color: #4aaaa5 ; 
+}
+
+.linksArea {
+    
+    display: flex ; 
+    align-items: center;
+
+}
+
+.linksArea a {
+    padding: 20px ;
+    color: #777777;
+    text-decoration: none ;
+    
+}
+
+/* leave space for the fixed header */
+body { padding-top: 100px; }
+
+
+.mainContent h1 {
+    color: #4aaaa5 ;
+    border-bottom: 1px solid #a1a1a1 ;
+
+}
+
+.mainContent p {
+    padding: 5px 15px 5px 15px ;
+    line-height: 1.5em ;    
+}
+
+/* TESTING STYLES 
+.col-sm-2 {
+    border: 1px solid red ;
+}*/
